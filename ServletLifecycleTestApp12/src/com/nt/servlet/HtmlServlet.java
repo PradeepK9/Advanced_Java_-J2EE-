@@ -24,7 +24,7 @@ public class HtmlServlet extends  HttpServlet
 	
 	//2nd service (-,-) method
 	protected void   service(HttpServletRequest req,  HttpServletResponse res)throws ServletException,IOException{
-		System.out.println("HtmlServlet.service(-,-)");
+		System.out.println("HtmlServlet.service(-,-) ");
 		  PrintWriter pw=null;
          //get PrintWriter 
 		 pw=res.getWriter();
