@@ -91,7 +91,7 @@ public class FormServlet extends HttpServlet {
 			 
 			 }//else
 		
-		  pw.println("<h2 style='color:blue'>The submitted Details are  </h2>");
+		  pw.println("<h2 style='color:blue'>The submitted Details are :  </h2>");
 		  pw.println("<br><b> name::"+name+"</b>");
 		  pw.println("<br><b> age::"+age+"</b>");
 		  pw.println("<br><b> adrrs::"+addrs+"</b>");
